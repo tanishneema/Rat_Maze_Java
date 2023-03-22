@@ -1,4 +1,4 @@
-## Rate Maze Java
+# Rate Maze Java
 Problem Statement: A maze is provided in the form R * C matrix, where R is the total number of rows, and C is the total number of columns present in the matrix (R may or may not become equal to C). The cell m[0][0] is the source . From the source, the rat starts its journey. The rat has to reach cell m[R - 1][C - 1], the destination cell. The rat can move in upward (↑), downward (↓), rightward (→) leftward (←) directions from the cell where it is currently present. Also, note that the rat can only move to its adjacent cell.
 
 This can be solved using Backtracking, Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally. Solving one piece at a time, and removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree) is the process of backtracking.
