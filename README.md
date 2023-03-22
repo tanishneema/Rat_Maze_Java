@@ -12,17 +12,17 @@ Pseudocode for rat in maze problem: Begin
  3. If movement in above step doesn’t lead to the solution and if previous step is not in horizontal direction (towards right) then move forward in the horizontal direction (towards left) and recursively check if this movement leads to solution.
  4. If none of the above solution works then **BACKTRACK** and mark the current cell as 0.
 
-**Input**: It will be in the form of nn or RC matrix. 
-For example: 
-{1, 0, 1, 1, 1} 
-{1, 1, 1, 0, 1} 
-{1, 0, 0, 1, 1} 
-{1, 1, 0, 1, 0} 
-{1, 0, 1, 1, 1}
+**Input**: It will be in the form of nn or RC matrix. <br>
+For example: <br>
+{1, 0, 1, 1, 1} <br>
+{1, 1, 1, 0, 1} <br>
+{1, 0, 0, 1, 1} <br>
+{1, 1, 0, 1, 0} <br>
+{1, 0, 1, 1, 1}<br>
 
-**Output**: 
-{1, 0, 1, 1, 1} 
-{1, 1, 1, 0, 1} 
-{0, 0, 0, 1, 1} 
-{0, 0, 0, 1, 0} 
-{0, 0, 0, 1, 1}
+**Output**: <br>
+{1, 0, 1, 1, 1} <br>
+{1, 1, 1, 0, 1} <br>
+{0, 0, 0, 1, 1} <br>
+{0, 0, 0, 1, 0} <br>
+{0, 0, 0, 1, 1}<br>
